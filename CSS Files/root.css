@@ -1,0 +1,30 @@
+:root {
+  --showcase-background-color: black;
+  --showcase-header-color: violet;
+  --showcase-text-color: white;
+  --about-background-color: white;
+  --about-primary: white;
+  --about--header-color: darkorchid;
+  --about--text-color: black;
+  --projects-background-color: #f1f1f1;
+  --projects-header-color: darkorchid;
+  --projects-text-color: black;
+  --contact-background-color: black;
+  --contact-header-color: darkorchid;
+  --contact-text-color: white;
+  --contact-inputfields-color: #f1f1f1;
+  --contact-submit-color: darkorchid;
+  --contact-submit-hovercolor: plum;
+  --footer-background-color: black;
+  --footer-text-color: white;
+  --footer-links-hover-color: violet;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+}

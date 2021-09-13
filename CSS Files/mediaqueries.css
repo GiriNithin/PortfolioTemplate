@@ -1,0 +1,131 @@
+/* Media Queries */
+
+@media screen and (max-width: 680px) {
+  .navbar .nav-items {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .navbar .nav-items.show {
+    display: flex;
+  }
+  .navbar .hamburger {
+    display: block;
+  }
+  .navbar .nav-items.show {
+    display: flex;
+  }
+  .showcase .showcase-info #hello {
+    font-size: 0.8rem;
+  }
+  .about .about-info-1 .about-header {
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+  }
+  .projects .projects-info #projects-header-2 {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
+  .projects .projects-info #projects-header-3 {
+    font-size: 1rem;
+  }
+  .showcase .showcase-info #showcase-main {
+    font-size: 0.8rem;
+  }
+  .projects .projects-display .projects-container .project-1 {
+    font-size: 0.8rem;
+    grid-template-columns: 1fr 1.5fr; 
+  }
+  .projects .projects-display .projects-container .project-2 {
+    font-size: 0.8rem;
+  }
+  .projects .projects-display .projects-container .project-3 {
+    font-size: 0.8rem;
+  }
+
+}
+@media screen and (max-width: 480px) {
+  .about .about-info-1 .about-header {
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+  }
+  .skills-section .skills-info {
+    font-size: 0.8rem;
+    display: block;
+  }
+  .skills-section .skills-info h3 {
+    padding-bottom: 10px;
+  }
+  .showcase .showcase-info #hello {
+    padding-left: 20px;
+  }
+  .showcase .showcase-info #showcase-main {
+    padding-left: 20px;
+  }
+  .showcase .showcase-info #showcase-extra p {
+    font-size: 0.8rem;
+    padding-left: 20px;
+  }
+  .about .about-info-1 .about-extra {
+    font-size: 0.6rem;
+  }
+  .about .about-info-2 .about-text-2 .about-2-header {
+    font-size: 0.8rem;
+  }
+  .about .about-info-2 .about-text-2 .about-2-info {
+    font-size: 0.9rem;
+  }
+  .about .skills-section .skills-header {
+    font-size: 0.8rem;
+  }
+  .about .skills-section .skills-info {
+    font-size: 0.8rem;
+  }
+  .projects .projects-info #projects-header-2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+  }
+  .projects .projects-info #projects-header-3 {
+    font-size: 0.9rem;
+  }
+  .contact .contact-content .contact-header-2 {
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+  }
+  .contact .contact-content .contact-header-info {
+    font-size: 0.8rem;
+  }
+  .contact .contact-form label {
+    font-size: 0.8rem;
+  }
+  .contact .contact-form input {
+    width: 100%;
+  }
+  .contact .contact-form textarea {
+    width: 100%;
+  }
+  .footer .footer-logo {
+    font-size: 1.1rem;
+  }
+  .footer .footer-links a {
+    font-size: 0.8rem;
+  }
+  .projects .projects-display .projects-container .project-1 {
+    display:block;
+  }
+  .projects .projects-display .projects-container .project-2 {
+    display:block;
+  }
+  .projects .projects-display .projects-container .project-3 {
+    display:block;
+  }
+  .projects .projects-display .projects-container .project-1 .project-1-left {
+    width:100%;
+  }
+  .projects .projects-display .projects-container .project-2 .project-2-left {
+    width:100%;
+  }
+  .projects .projects-display .projects-container .project-3 .project-3-left {
+    width:100%;
+  }
+}

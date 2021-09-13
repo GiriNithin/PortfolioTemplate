@@ -1,0 +1,43 @@
+/*   NavBar             */
+
+.navbar {
+  padding: 15px;
+  width: 100%;
+  background: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index:1000;
+}
+.navbar .logo {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 50px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+}
+.navbar .nav-items {
+  display: flex;
+  list-style: none;
+  padding: 20px 40px;
+}
+.navbar .nav-items a {
+  text-decoration: none;
+  color: white;
+  padding: 20px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar .hamburger {
+  padding-right: 30px;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+.navbar .nav-items a:hover {
+  color: violet;
+}
